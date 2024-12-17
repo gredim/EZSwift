@@ -131,6 +131,59 @@
 
 ---
 
+## Операторы в Swift
+
+Операторы в Swift используются для выполнения различных операций с данными: арифметических, логических и присваивания.
+
+1. **Арифметические операторы**:
+    - Операции сложения, вычитания, умножения и деления.
+
+    Пример:
+    ```swift
+    let a = 10
+    let b = 3
+
+    let sum = a + b        // 13
+    let difference = a - b // 7
+    let product = a * b    // 30
+    let quotient = a / b   // 3
+    let remainder = a % b  // 1
+    ```
+2. **Операторы сравнения**:
+    - Операторы для сравнения значений.
+
+    Пример:
+    ```swift
+    let x = 5
+    let y = 10
+
+    let isEqual = x == y  // false
+    let isGreater = x > y // false
+    let isLess = x < y    // true
+    ```
+3. **Логические операторы**:
+    - Операторы для работы с булевыми значениями (И, ИЛИ, НЕ).
+    Пример:
+    ```swift
+    let isTrue = true
+    let isFalse = false
+
+    let andResult = isTrue && isFalse // false
+    let orResult = isTrue || isFalse  // true
+    let notResult = !isTrue           // false
+    ```
+4. **Операторы присваивания**:
+    - Операторы для присваивания значений переменным.
+
+    Пример:
+    ```swift
+    var number = 5
+    number += 3  // number = 8
+    number -= 2  // number = 6
+    number *= 2  // number = 12
+    ```
+---
+
 ## Полезные материалы и ссылки:
 
 ### Официальная документация Apple
